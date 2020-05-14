@@ -91,16 +91,17 @@
         }
         
         .container-2 {
-            position: relative;
-            text-align: center;
-            background-image: url('images/group_photo.png');
-            opacity: 100%;
-            background-repeat: no-repeat;
-            background-size: 100%;
-            background-position: center;
+           
             height: 500px;
+            overflow:hidden;
+            position: relative;
         }
-        
+        .container-2 img{
+        width: 100%;
+        position: absolute;
+        top: -30%;
+        display:block;
+        }
         .centered {
             position: absolute;
             top: 50%;
@@ -163,6 +164,18 @@
             }
             .container-2 {
                 height: 300px;
+                position: relative;
+                text-align: center;
+                background-image: url('images/group_photo.png');
+                opacity: 100%;
+                background-repeat: no-repeat;
+                background-size: 100%;
+                background-position: center;
+            }
+
+            .container-2 img{
+                display: none;
+
             }
             .logo-image {
                 display: none;
