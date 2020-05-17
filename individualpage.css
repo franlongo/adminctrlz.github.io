@@ -92,6 +92,8 @@ a img:hover {
 .container-3 {
     padding-top: 75pt;
     padding-bottom: 100pt;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .project-info {
@@ -119,7 +121,8 @@ a img:hover {
     }
     .container-3 {
         padding-top: 20pt;
-    }
+        padding-left: 0;
+        padding-right: 0    }
 }
 
 .img-sticky {
