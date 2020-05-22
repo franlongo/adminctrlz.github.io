@@ -87,11 +87,14 @@ a img:hover {
     animation-fill-mode: forwards;
     -webkit-animation-direction: normal, alternate;
     animation-direction: normal, alternate;
+
 }
 
 .container-3 {
     padding-top: 75pt;
     padding-bottom: 100pt;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .project-info {
@@ -119,7 +122,8 @@ a img:hover {
     }
     .container-3 {
         padding-top: 20pt;
-    }
+        padding-left: 0;
+        padding-right: 0    }
 }
 
 .img-sticky {
@@ -170,4 +174,8 @@ a img:hover {
     font-size: 24px;
     margin-left: 50px;
     color: black;
+}
+
+.change_cursor {
+    cursor: zoom-in;
 }
